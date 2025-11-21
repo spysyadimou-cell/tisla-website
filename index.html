@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TISLA - بيع واشتري بثقة</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>TISLA</h1>
+                <span class="slogan">بيع واشتري بثقة</span>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="ابحث عن منتج أو متجر...">
+                <button class="search-btn">بحث</button>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="active">الرئيسية</a>
+                <a href="register.html">تسجيل حساب</a>
+                <a href="login.html">تسجيل الدخول</a>
+                <a href="add-product.html">بيع منتج</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- قسم الهيرو -->
+    <header class="hero">
+        <div class="hero-content">
+            <h2>مرحباً بك في TISLA</h2>
+            <p>منصة التسوق المحلي الأولى - اتصل بالبائع مباشرة</p>
+            <div class="hero-buttons">
+                <a href="register.html" class="btn btn-primary">ابدأ البيع الآن</a>
+                <a href="#products" class="btn btn-secondary">تصفح المنتجات</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- شريط البحث الرئيسي -->
+    <section class="main-search">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" placeholder="ماذا تبحث عنه؟">
+                <select>
+                    <option>جميع الفئات</option>
+                </select>
+                <select>
+                    <option>جميع المناطق</option>
+                </select>
+                <button class="btn-search">ابحث</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المنتجات المميزة -->
+    <section id="products" class="featured-products">
+        <div class="container">
+            <h2>🛍️ المنتجات المميزة</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">📷</div>
+                    <div class="product-info">
+                        <h3>اسم المنتج</h3>
+                        <p>وصف قصير للمنتج</p>
+                        <div class="product-price">السعر</div>
+                        <div class="product-seller">اسم البائع</div>
+                        <button class="btn-contact">اتصل بالبائع</button>
+                    </div>
+                </div>
+                <!-- سيتم إضافة المنتجات dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المتاجر المحلية -->
+    <section class="local-stores">
+        <div class="container">
+            <h2>🏪 المتاجر المحلية</h2>
+            <div class="stores-grid">
+                <div class="store-card">
+                    <div class="store-image">🛍️</div>
+                    <div class="store-info">
+                        <h3>اسم المتجر</h3>
+                        <p>وصف المتجر</p>
+                        <div class="store-rating">التقييم</div>
+                        <button class="btn-visit">زيارة المتجر</button>
+                    </div>
+                </div>
+                <!-- سيتم إضافة المتاجر dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم العروض الخاصة -->
+    <section class="special-offers">
+        <div class="container">
+            <h2>🎯 العروض الخاصة</h2>
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <div class="offer-badge">عرض خاص</div>
+                    <div class="offer-image">🎁</div>
+                    <div class="offer-info">
+                        <h3>اسم العرض</h3>
+                        <p class="original-price">السعر الأصلي</p>
+                        <p class="discount-price">السعر بعد الخصم</p>
+                        <button class="btn-offer">استفد من العرض</button>
+                    </div>
+                </div>
+                <!-- سيتم إضافة العروض dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TISLA</h3>
+                    <p>منصتك المحلية للبيع والشراء الآمن</p>
+                </div>
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <a href="#">عن TISLA</a>
+                    <a href="#">اتصل بنا</a>
+                    <a href="#">الشروط والأحكام</a>
+                </div>
+                <div class="footer-section">
+                    <h4>التواجد</h4>
+                    <p>جميع المناطق</p>
+                    <p>الدعم: support@tisla.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TISLA. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
